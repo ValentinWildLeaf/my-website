@@ -4,35 +4,42 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
 
-  <div class="slice first">
-    <div class="presentation">
-      <h1>Bonjour <br/>
-      Je m'appelle Valentin.<br/>
-      Je suis développeur Web.</h1>
+    <div class="slice first">
+      <div class="presentation">
+        <h1>Bonjour <br />
+          Je m'appelle Valentin.<br />
+          Je suis développeur Web.</h1>
+      </div>
     </div>
-  </div>
 
-  <div class="wave"></div>
+    <div class="slice second">
+      <div class="board">
 
-  <div class="slice second">
-    <div class="board">
+        <article>
 
-      <article>
+          <header>
+            <h2>A propos de moi</h2>
+          </header>
 
-        <header>
-          <h2>A propos de moi</h2>
-        </header>
+          <p>
+            Fasciné par les ordinateurs et la technologie depuis toujours, j'ai décidé de faire mon buisness de toute
+            ces années d'expérience sur la toile.
+          </p>
+          
+          <p>
+            Je suis quelqu'un d'optimiste qui voit les technologies de l'information comme un outil très puissant
+            pouvant aider les gens à communiquer entre eux et partager leur savoir comme jamais auparavant.
+          </p>
+            
+          <p>
+            Mon but est d'utiliser cet outil à votre service pour vous faciliter la vie au maximum (sans tomber dans le
+            piège de la surcomplication à outrance ;) )
+          </p>
 
-        <p>
-          Fasciné par les ordinateurs et la technologie depuis toujours, j'ai décidé de faire mon buisness de toute ces années d'expérience sur la toile.
-          Je suis quelqu'un d'optimiste qui voit les technologies de l'information comme un outil très puissant pouvant aider les gens à communiquer entre eux et partager leur savoir comme jamais auparavant. 
-          Mon but est d'utiliser cet outil à votre service pour vous faciliter la vie au maximum (sans tomber dans le piège de la surcomplication à outrance ;) )
-        </p>
-      
-      </article>
+        </article>
 
+      </div>
     </div>
-  </div>
 
   <div class="slice third">
     <div class="board">
@@ -41,17 +48,20 @@ import HelloWorld from './components/HelloWorld.vue'
 
         <header>
           <h2>Mes compétences</h2>
-          <p>J'ai de très bonnes connaissances générales dans ces différents domaines du développement de solutions informatiques. Mais ma spécialité reste la résolution de problème (Problem Solving) en utilisant l'outil informatique.</p>
+          <p>J'ai de très bonnes connaissances générales dans ces différents domaines du développement de solutions
+            informatiques. Mais ma spécialité reste la résolution de problème (Problem Solving) en utilisant l'outil
+            informatique.</p>
         </header>
 
         <ul>
           <li>Analyse fonctionnelle des systèmes d'information pour répondre au besoin des utilisateurs</li>
           <li>Architecture Web</li>
           <li>Développement d'applications Web Full Stack en lien avec une Base de données</li>
-          <li>UX Design et Responsive UI Design -> Design de l'expérience des utilisateur et de l'interface utilisateur</li>
+          <li>UX Design et Responsive UI Design -> Design de l'expérience des utilisateur et de l'interface utilisateur
+          </li>
           <li>Problem solving</li>
         </ul>
-      
+
       </article>
 
     </div>
@@ -65,7 +75,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <header>
           <h2>Mes technologies favorites</h2>
           <p>
-            Une liste non exaustive des technologies que j'utilise:    
+            Une liste non exaustive des technologies que j'utilise:
           </p>
         </header>
 
@@ -101,7 +111,7 @@ import HelloWorld from './components/HelloWorld.vue'
           <li>Litérature</li>
           <li>Jardinage</li>
         </ul>
-      
+
       </article>
 
     </div>
@@ -110,23 +120,44 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
-  .second{
-    background-color: #3F7D20;
-    padding: 2%;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:wght@700&display=swap');
 
-  .third{
-    padding: 2%;
-  }
+h1, h2{
+  font-family: 'Rubik';
+}
 
-  .fourth{
-    padding: 2%;
-  }
+p, li{
+  font-family: 'Roboto Mono', monospace;
+}
 
-  .fith{
-    padding: 2%;
-  }
+.first {
+  background-color: #0A4673;
+  padding: 2%;
+}
 
+.wave {
+  height: 960px;
+  background-image: url(./assets/wave-haikei.svg);
+  background-size: cover;
+}
+
+.second {
+  padding: 2%;
+}
+
+.third {
+  background-color: #115D97;
+  padding: 2%;
+}
+
+.fourth {
+  padding: 2%;
+}
+
+.fith {
+  background-color: #115D97;
+  padding: 2%;
+}
 </style>
 
 <!--
