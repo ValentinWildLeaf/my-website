@@ -80,13 +80,39 @@ import HelloWorld from './components/HelloWorld.vue'
         </header>
 
         <ul>
-          <li>WordPress</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>ES6: Javascript / TypeScript</li>
-          <li>PHP</li>
-          <li>VueJS</li>
-          <li>MongoDB</li>
+          <li>
+            <img src="./assets/wordpress-logo.png" alt="WordPress logo" width="200"/>
+            WordPress
+          </li>
+          <li>
+            <img src="./assets/html5-logo.png" alt="HTML5 logo" width="200"/>
+            HTML5
+          </li>
+          <li>
+            <img src="./assets/css3-logo.png" alt="CSS3 logo" width="200"/>
+            CSS3
+          </li>
+          <li>
+            <img src="./assets/javascript-logo.png" alt="Javascript logo" width="200"/>
+            ES6: Javascript / Typescript
+            <img src="./assets/typescript-logo.png" alt="Typescript logo" width="200"/>
+          </li>
+          <li>
+            <img src="./assets/php-logo.png" alt="PHP logo" width="200"/>
+            PHP
+          </li>
+          <li>
+            <img src="./assets/react-logo.png" alt="ReactJS logo" width="200"/>
+            React
+          </li>
+          <li>
+            <img src="./assets/vuejs-logo.png" alt="VueJS logo" width="200"/>
+            VueJS
+          </li>
+          <li>
+            <img src="./assets/mongodb-logo.png" alt="MongoDB logo" width="200"/>
+            MongoDB
+          </li>
         </ul>
 
       </article>
