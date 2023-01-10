@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Technos from './components/Technos.vue'
 </script>
 
 <template>
@@ -67,58 +67,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
   </div>
 
-  <div class="slice fourth">
-    <div class="board">
-
-      <article>
-
-        <header>
-          <h2>Mes technologies favorites</h2>
-          <p>
-            Une liste non exaustive des technologies que j'utilise:
-          </p>
-        </header>
-
-        <ul>
-          <li>
-            <img src="./assets/wordpress-logo.png" alt="WordPress logo" width="200"/>
-            WordPress
-          </li>
-          <li>
-            <img src="./assets/html5-logo.png" alt="HTML5 logo" width="200"/>
-            HTML5
-          </li>
-          <li>
-            <img src="./assets/css3-logo.png" alt="CSS3 logo" width="200"/>
-            CSS3
-          </li>
-          <li>
-            <img src="./assets/javascript-logo.png" alt="Javascript logo" width="200"/>
-            ES6: Javascript / Typescript
-            <img src="./assets/typescript-logo.png" alt="Typescript logo" width="200"/>
-          </li>
-          <li>
-            <img src="./assets/php-logo.png" alt="PHP logo" width="200"/>
-            PHP
-          </li>
-          <li>
-            <img src="./assets/react-logo.png" alt="ReactJS logo" width="200"/>
-            React
-          </li>
-          <li>
-            <img src="./assets/vuejs-logo.png" alt="VueJS logo" width="200"/>
-            VueJS
-          </li>
-          <li>
-            <img src="./assets/mongodb-logo.png" alt="MongoDB logo" width="200"/>
-            MongoDB
-          </li>
-        </ul>
-
-      </article>
-
-    </div>
-  </div>
+  <Technos></Technos>
 
   <div class="slice fith">
     <div class="board">
@@ -173,10 +122,6 @@ p, li{
 
 .third {
   background-color: #115D97;
-  padding: 2%;
-}
-
-.fourth {
   padding: 2%;
 }
 
