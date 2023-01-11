@@ -1,11 +1,10 @@
 <template>
-    <div class="fourth-box">
             <article>
 
                 <header>
                     <h2>Ma boite à outils</h2>
                     <p>
-                        Une liste non exaustive des technologies que j'utilise:
+                        Une liste non exhaustive des technologies que j'utilise:
                     </p>
                 </header>
 
@@ -52,15 +51,12 @@
                 </ul>
 
             </article>
-    </div>
 </template>
 
 <style>
-    .fourth-box{
-        padding: 2%;
-    }
     h2{
         font-family: 'Rubik';
+        text-shadow: 2px 2px black;
     }
     p{
         font-family: 'Roboto Mono', monospace;
@@ -68,8 +64,6 @@
     .flex-container{
         display: flex;
         flex-wrap: wrap;
-        /*flex-direction: row;
-        flex: 20%;*/
     }
     ul > li{
         list-style-type: none;
@@ -78,7 +72,14 @@
     .techno-logo{
         height: 200px;
         padding: 1%;
+        will-change: filter height;
     }
+
+    .techno-logo:hover {
+        height: 210px;
+        filter: drop-shadow(0 0 5em #ffffff);
+    }
+
     h3{
         text-align: center;
     }
