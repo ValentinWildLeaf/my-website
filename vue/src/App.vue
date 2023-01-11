@@ -5,7 +5,7 @@ import Technos from './components/Technos.vue'
 <template>
 
 
-  <div class="presentation">
+  <div class="main-title">
     <h1>Bonjour <br />
       Je m'appelle Valentin.<br />
       Je suis développeur Web Freelance.</h1>
@@ -41,7 +41,7 @@ import Technos from './components/Technos.vue'
         <li>&#128221 Analyse fonctionnelle des systèmes d'information pour répondre au besoin des utilisateurs sur le terrain</li>
         <li>&#129504 Problem solving</li>
         <li>&#129309 Travail d'équipe en mode agile</li>
-        <li>&#128376 Architecture Web</li>
+        <li>&#128376 Architecture et Microservices</li>
         <li>&#128396 UX Design et Responsive UI Design -> Design de l'expérience de navigation et de l'interface utilisateur
         </li>
         <li>&#128187 Développement d'applications Web Full Stack en lien avec une Base de données</li>
@@ -120,12 +120,12 @@ li {
   font-family: 'Roboto Mono', monospace;
 }
 
-.presentation {
-  padding: 2%;
+.main-title {
+  padding: 3%;
 }
 
 .container {
-  background-color: rgba(17, 93, 151, 0.7);
+  background-color: rgba(17, 93, 151, 0.6);
   border-radius: 21px;
   box-shadow: 0 10px 20px rgba(117, 181, 255, 0.5);
   padding: 2%;
@@ -136,16 +136,4 @@ li {
   display: flex;
   padding: 1% 1% 1% 2%;
 }
-/*
-  &#128190 -> emoji disquette
-  &#128200 -> emoji graphique
-  &#128187 -> emoji PC
-  &#128193 -> emoji document
-  &#128195 -> emoji liste
-  &#128203 -> emoji notes
-  &#128214 -> emoji livre
-  &#128218 -> emoji pile de livres
-  &#128221 -> prise de notes
-  &#128231 -> emails
- */
 </style>
